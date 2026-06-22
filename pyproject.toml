@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lesson-loom"
+version = "0.1.0"
+description = "A self-improving educational-content engine: LangGraph generation + a hybrid eval harness + an optimizer that rewrites its own prompts, reward, and tools behind a regression-gated promotion gate."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Deewakar", email = "noreply@acilox.dev" }]
+keywords = ["llm", "langgraph", "agents", "evals", "self-improving", "edtech", "context-packs"]
+
+dependencies = [
+    "langgraph>=0.2,<0.4",
+    "langchain-core>=0.3,<0.4",
+    "pydantic>=2.6",
+    "pyyaml>=6.0",
+    "textstat>=0.7.4",
+    "structlog>=24.1",
+    "click>=8.1",
+    "rich>=13.7",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+claude = ["anthropic>=0.40"]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "ruff>=0.5", "httpx>=0.27"]
+
+[project.scripts]
+lesson-loom = "lesson_loom.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lesson_loom = ["context_packs/fixtures/*.yaml", "evals/datasets/*.yaml", "app/templates/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

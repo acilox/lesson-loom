@@ -1,0 +1,178 @@
+# History eval suite — Industrial Revolution (high school, FK band 9.0-12.0)
+# 8 train / 4 heldout / 4 test. Held-out + test lean on harder content types.
+
+- id: hist_train_01
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: explainer
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_102]
+  required_fact_ids: [fact_101, fact_102, fact_103]
+
+- id: hist_train_02
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: lesson
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_102, obj_103, obj_104]
+  required_fact_ids: [fact_101, fact_102, fact_103, fact_104, fact_105, fact_106]
+
+- id: hist_train_03
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: summary
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_102]
+  required_fact_ids: [fact_103, fact_104]
+
+- id: hist_train_04
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: explainer
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_103, obj_104]
+  required_fact_ids: [fact_105, fact_106]
+
+- id: hist_train_05
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: lesson
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_103]
+  required_fact_ids: [fact_102, fact_103, fact_105]
+
+- id: hist_train_06
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: explainer
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_102, obj_104]
+  required_fact_ids: [fact_101, fact_104, fact_106]
+
+- id: hist_train_07
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: study_guide
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_102, obj_103]
+  required_fact_ids: [fact_101, fact_102, fact_104, fact_105]
+
+- id: hist_train_08
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: summary
+  split: train
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_104]
+  required_fact_ids: [fact_104, fact_106]
+
+- id: hist_heldout_01
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: lesson
+  split: heldout
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_102, obj_103, obj_104]
+  required_fact_ids: [fact_101, fact_102, fact_103, fact_104, fact_105, fact_106]
+
+- id: hist_heldout_02
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: explainer
+  split: heldout
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_103]
+  required_fact_ids: [fact_105, fact_106]
+
+- id: hist_heldout_03
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: lesson
+  split: heldout
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_104]
+  required_fact_ids: [fact_102, fact_106]
+
+- id: hist_heldout_04
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: summary
+  split: heldout
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_102]
+  required_fact_ids: [fact_103, fact_104]
+
+- id: hist_test_01
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: explainer
+  split: test
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_102]
+  required_fact_ids: [fact_101, fact_102, fact_104]
+
+- id: hist_test_02
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: lesson
+  split: test
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_102, obj_103, obj_104]
+  required_fact_ids: [fact_103, fact_104, fact_105, fact_106]
+
+- id: hist_test_03
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: summary
+  split: test
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_103]
+  required_fact_ids: [fact_104, fact_105]
+
+- id: hist_test_04
+  subject: history
+  topic: Industrial Revolution
+  grade_level: high_school
+  content_type: study_guide
+  split: test
+  reading_level_low: 9.0
+  reading_level_high: 12.0
+  required_objective_ids: [obj_101, obj_104]
+  required_fact_ids: [fact_101, fact_106]

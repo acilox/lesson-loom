@@ -1,0 +1,178 @@
+# Science eval suite — Photosynthesis (grade 5, FK band 4.0-6.5)
+# 8 train / 4 heldout / 4 test. Held-out + test lean on harder content types.
+
+- id: sci_train_01
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: explainer
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_002, obj_003]
+  required_fact_ids: [fact_001, fact_002, fact_003, fact_004]
+
+- id: sci_train_02
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: lesson
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_002, obj_003, obj_004]
+  required_fact_ids: [fact_001, fact_002, fact_003, fact_004, fact_005, fact_006]
+
+- id: sci_train_03
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: summary
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_003]
+  required_fact_ids: [fact_004, fact_005]
+
+- id: sci_train_04
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: explainer
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_004]
+  required_fact_ids: [fact_001, fact_003, fact_006]
+
+- id: sci_train_05
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: lesson
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_002, obj_003]
+  required_fact_ids: [fact_002, fact_004, fact_005]
+
+- id: sci_train_06
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: explainer
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_002]
+  required_fact_ids: [fact_001, fact_002, fact_004]
+
+- id: sci_train_07
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: study_guide
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_003, obj_004]
+  required_fact_ids: [fact_003, fact_004, fact_005, fact_006]
+
+- id: sci_train_08
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: summary
+  split: train
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_002]
+  required_fact_ids: [fact_004, fact_006]
+
+- id: sci_heldout_01
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: lesson
+  split: heldout
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_002, obj_003, obj_004]
+  required_fact_ids: [fact_001, fact_002, fact_003, fact_004, fact_005, fact_006]
+
+- id: sci_heldout_02
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: explainer
+  split: heldout
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_004]
+  required_fact_ids: [fact_005, fact_006]
+
+- id: sci_heldout_03
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: lesson
+  split: heldout
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_003]
+  required_fact_ids: [fact_001, fact_004]
+
+- id: sci_heldout_04
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: summary
+  split: heldout
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_002]
+  required_fact_ids: [fact_002, fact_003, fact_004]
+
+- id: sci_test_01
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: explainer
+  split: test
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_002, obj_003]
+  required_fact_ids: [fact_001, fact_002, fact_004]
+
+- id: sci_test_02
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: lesson
+  split: test
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_002, obj_003, obj_004]
+  required_fact_ids: [fact_003, fact_004, fact_005, fact_006]
+
+- id: sci_test_03
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: summary
+  split: test
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_003]
+  required_fact_ids: [fact_004, fact_005]
+
+- id: sci_test_04
+  subject: science
+  topic: Photosynthesis
+  grade_level: grade_5
+  content_type: study_guide
+  split: test
+  reading_level_low: 4.0
+  reading_level_high: 6.5
+  required_objective_ids: [obj_001, obj_004]
+  required_fact_ids: [fact_001, fact_006]

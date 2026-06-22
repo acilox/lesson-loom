@@ -1,0 +1,68 @@
+subject: history
+topic: Industrial Revolution
+target_grade: high_school
+reading_level_low: 9.0
+reading_level_high: 12.0
+
+facts:
+  - id: fact_101
+    text: The Industrial Revolution began in Britain around 1760 and spread across Europe and North America
+    source: "Hobsbawm, The Age of Revolution"
+    difficulty: 2
+  - id: fact_102
+    text: James Watt's improved steam engine made factories independent of water power and rivers
+    source: "Allen, The British Industrial Revolution in Global Perspective"
+    difficulty: 3
+  - id: fact_103
+    text: The factory system concentrated workers and machines under one roof, replacing cottage industry
+    source: "Hobsbawm, The Age of Revolution"
+    difficulty: 3
+  - id: fact_104
+    text: Rapid industrialization drove mass migration from the countryside to cities, fueling urbanization
+    source: "Allen, The British Industrial Revolution in Global Perspective"
+    difficulty: 3
+  - id: fact_105
+    text: Early factory labor often involved long hours, low wages, and child labor in dangerous conditions
+    source: "Engels, The Condition of the Working Class in England"
+    difficulty: 4
+  - id: fact_106
+    text: Industrial growth widened the gap between a new industrial middle class and the urban working class
+    source: "Hobsbawm, The Age of Revolution"
+    difficulty: 4
+
+concept_graph:
+  - concept: industrialization
+    prerequisites: [steam_power, factory_system]
+  - concept: urbanization
+    prerequisites: [industrialization]
+  - concept: social_change
+    prerequisites: [urbanization, factory_labor]
+
+learning_objectives:
+  - id: obj_101
+    text: Explain how steam power enabled the factory system
+    bloom_level: understand
+  - id: obj_102
+    text: Analyze how industrialization caused urbanization
+    bloom_level: analyze
+  - id: obj_103
+    text: Evaluate the social costs of early industrial labor
+    bloom_level: evaluate
+  - id: obj_104
+    text: Compare the impacts of industrialization on different social classes
+    bloom_level: analyze
+
+misconceptions:
+  - id: mis_101
+    text: The Industrial Revolution improved living standards for everyone immediately
+    correction: Early industrialization often worsened working and living conditions before reforms and rising wages followed later
+  - id: mis_102
+    text: The Industrial Revolution was a single sudden event
+    correction: It was a gradual, decades-long process that unfolded unevenly across regions and industries
+
+difficulty_ladder:
+  - steam_power
+  - factory_system
+  - industrialization
+  - urbanization
+  - social_change

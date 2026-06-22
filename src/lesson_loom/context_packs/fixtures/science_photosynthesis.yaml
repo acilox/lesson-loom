@@ -1,0 +1,66 @@
+subject: science
+topic: Photosynthesis
+target_grade: grade_5
+reading_level_low: 4.0
+reading_level_high: 6.5
+
+facts:
+  - id: fact_001
+    text: Chlorophyll is the green pigment in leaves that absorbs light energy from the sun
+    source: "Campbell Biology, Ch. 10"
+    difficulty: 2
+  - id: fact_002
+    text: Plants take in carbon dioxide from the air through tiny holes in their leaves called stomata
+    source: "Campbell Biology, Ch. 10"
+    difficulty: 2
+  - id: fact_003
+    text: Roots pull water up from the soil and carry it to the leaves
+    source: "OpenStax Biology 2e, Ch. 8"
+    difficulty: 1
+  - id: fact_004
+    text: Photosynthesis turns carbon dioxide and water into glucose and oxygen using light energy
+    source: "OpenStax Biology 2e, Ch. 8"
+    difficulty: 3
+  - id: fact_005
+    text: The glucose made in photosynthesis stores energy the plant uses to grow
+    source: "Campbell Biology, Ch. 10"
+    difficulty: 3
+  - id: fact_006
+    text: Oxygen is released as a by-product of photosynthesis and is the gas animals breathe
+    source: "OpenStax Biology 2e, Ch. 8"
+    difficulty: 2
+
+concept_graph:
+  - concept: photosynthesis
+    prerequisites: [light_energy, gases, water_transport]
+  - concept: glucose_storage
+    prerequisites: [photosynthesis]
+
+learning_objectives:
+  - id: obj_001
+    text: Explain that chlorophyll absorbs light energy
+    bloom_level: understand
+  - id: obj_002
+    text: Identify the reactants and products of photosynthesis
+    bloom_level: remember
+  - id: obj_003
+    text: Describe why plants need photosynthesis to grow
+    bloom_level: understand
+  - id: obj_004
+    text: Explain why photosynthesis matters for animals
+    bloom_level: analyze
+
+misconceptions:
+  - id: mis_001
+    text: Plants get their food from the soil
+    correction: Plants make their own food (glucose) through photosynthesis; soil mainly provides water and minerals
+  - id: mis_002
+    text: Plants only release carbon dioxide
+    correction: During photosynthesis plants take in carbon dioxide and release oxygen
+
+difficulty_ladder:
+  - light_energy
+  - gases
+  - water_transport
+  - photosynthesis
+  - glucose_storage
